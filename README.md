@@ -1,23 +1,22 @@
-![Hikigaya](https://telegra.ph/file/993f1fbb29e2b0fc1a860.jpg)
-# Hikigaya
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/6141417ceaf84545bab6bd671503df51)](https://app.codacy.com/gh/AnimeKaizoku/SaitamaRobot?utm_source=github.com&utm_medium=referral&utm_content=AnimeKaizoku/SaitamaRobot&utm_campaign=Badge_Grade_Settings)  [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/AnimeKaizoku/SaitamaRobot/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) [![Updates channel!](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/OnePunchUpdates)
+![MINATO](https://i.imgur.com/ojnUEQ2.jpg)
 
+# Minato Namikaze
 
-A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Saitama suitable for Anime and Manga group chats. 
+A modular Telegram Python bot running on python3 with a sqlalchemy database and an entirely themed persona to make Naruto suitable for Anime and Manga group chats. 
 
-Can be found on telegram as [Hikigaya](https://t.me/hikigaya_robot).
+Can be found on telegram as [Minato Namikaze (bot)](http://t.me/NamikazeMinato_bot).
 
-The Support group can be reached out to at [hikigaya Support](https://t.me/hikigayasupport), where you can ask for help about [Hiki support'](https://t.me/hikigayasupport), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
-
+The Support group can be reached out to at [Minato Support](https://t.me/MinatoNamikaze_Support), where you can ask for help about [Minato Namikaze (bot)](https://t.me/NamikazeMinato_bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available :) 
 
 
 ## How to setup/deploy.
 
 ### Read these notes carefully before proceeding 
- - Edit any mentions of @hikigayasupport to your own support chat
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot [See this](https://github.com/AnimeKaizoku/SaitamaRobot/blob/shiken/SaitamaRobot/__main__.py#L25)
+ - Edit any mentions of [@Minato Namikaze Support](https://t.me/MinatoNamikaze_Support) Support to your own support chat
+ - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot [See this](https://github.com/DarkGod14/MinatoNamikaze-bot/blob/main/MinatoNamikaze/__main__.py#L13)
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats
  - This repo does not come with technical support, so DO NOT come to us asking help about deploy/console errors
+
 
 <details>
   <summary>Steps to deploy on Heroku !! </summary>
@@ -29,7 +28,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Nksama/Hikigayarobot)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DarkGod14/MinatoNamikaze-bot.git)
 
 </details>  
 <details>
@@ -44,7 +43,7 @@ This is because markdown parsing is done by iterating through a dict, which is o
 There are two possible ways of configuring your bot: a config.py file, or ENV variables.
 
 The preferred version is to use a `config.py` file, as it makes it easier to see all your settings grouped together.
-This file should be placed in your `SaitamaRobot` folder, alongside the `__main__.py` file. 
+This file should be placed in your `MinatoNamikaze` folder, alongside the `__main__.py` file. 
 This is where your bot token will be loaded from, as well as your database URI (if you're using a database), and most of
 your other settings.
 
@@ -53,7 +52,7 @@ defaults set in the sample_config, hence making it easier to upgrade.
 
 An example `config.py` file could be:
 ```
-from SaitamaRobot.sample_config import Config
+from MinatoNamikaze.sample_config import Config
 
 class Development(Config):
     OWNER_ID = 254318997  # your telegram ID
@@ -139,7 +138,7 @@ All that is needed is that your .py file is in the modules folder.
 
 To add commands, make sure to import the dispatcher via
 
-`from SaitamaRobot import dispatcher`.
+`from MinatoNamikaze import dispatcher`.
 
 You can then add commands using the usual
 
@@ -159,13 +158,13 @@ through the `/stats` command, which is only available to the bot owner.
 
 Once you've set up your database and your configuration is complete, simply run the bat file(if on windows) or run (Linux):
 
-`python3 -m SaitamaRobot`
+`python3 -m MinatoNamikaze`
 
 You can use [nssm](https://nssm.cc/usage) to install the bot as service on windows and set it to restart on /gitpull 
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [One Punch Support](https://t.me/OnePunchSupport)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Minato Namikaze Support](https://t.me/MinatoNamikazeSupport)
 ## How to setup on Heroku 
 For starters click on this button 
 
@@ -180,4 +179,5 @@ Also, missing proper credit for blacklistusers taken from TheRealPhoenixBot (wil
 
 Any other authorship/credits can be seen through the commits.
 
-Should any be missing kindly let us know at [hikigaya support](https://t.me/hikigayasupport) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Minato Namikaze Support](https://t.me/MinatoNamikazeSupport) or simply submit a pull request on the readme.
+

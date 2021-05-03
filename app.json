@@ -1,6 +1,6 @@
 {
-      "name": "hikigaya",
-      "description": "An Anime themed Telegram group management bot.",
+   "name": "Minato Namikaze",
+      "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
@@ -8,8 +8,8 @@
          "manager",
          "Senku"
       ],   
-   "repository": "https://github.com/Nksama/hikigayarobot",
-   "logo": "https://telegra.ph/file/993f1fbb29e2b0fc1a860.jpg",
+   "repository": "https://github.com/DarkGod14/MinatoNamikaze-bot",
+   "logo": "https://telegra.ph/file/7d7efc78076370c4eb11c.jpg",
    "addons": [
     {
          "options": {
@@ -52,14 +52,14 @@
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "825664681"
+         "value": "1657187491"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "nk_guy"
+         "value": "DarkGod14"
       },
       "SUPPORT_CHAT": {
-         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to saitama support than consider you made an enemy.",
+         "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Minato support than consider you made an enemy.",
          "required": true,
          "value": "MyAwesomeSupportGroupGoesHere"
       },
@@ -153,7 +153,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://www.paypal.me/PaulSonOfLars"
+         "value": "https://www.paypal.me/DarkGod14"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
