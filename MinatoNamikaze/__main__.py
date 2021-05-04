@@ -53,7 +53,7 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 **Hello {}, My Name is {}!** 
-I am an **Minato Namikaze**  group management bot.
+I am an **Soul Warrior Team**  group management bot.
 You can find the list of available commands with /help.
 
 """
@@ -76,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-MINATO_IMG = "https://telegra.ph/file/095f68ba56eb9f67c9b0c.jpg"
+MINATO_IMG = "https://telegra.ph/file/a03e7523a793dd26ba093.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -197,19 +197,19 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" Support📱 ",
-                             url="https://t.me/MinatoNamikazeSupport")
+                             text=" Exynos7570 Colombia ",
+                             url="https://t.me/joinchat/9e1-HElOvgs0Njdh")
                      ],
                      [
                         InlineKeyboardButton(
                             text=" Help👀 ",
-                            url="https://t.me/NamikazeMinato_bot?start=help"),
+                            url="https://t.me/SoulWarriorTeam_bot?start=help"),
                          
                      ],
                      [
                         InlineKeyboardButton(
                              text=" Source Code📂 ",
-                             url="https://github.com/DarkGod14/MinatoNamikaze-bot")
+                             url="https://github.com/SoulWarrirorTeam/SoulWarriorTeam-bot")
                     
                     ]]))
     else:
