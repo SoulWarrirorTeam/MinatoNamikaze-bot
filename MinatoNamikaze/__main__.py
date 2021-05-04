@@ -197,8 +197,8 @@ def start(update: Update, context: CallbackContext):
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username)),
                          InlineKeyboardButton(
-                             text=" Exynos7570 Colombia ",
-                             url="https://t.me/joinchat/9e1-HElOvgs0Njdh")
+                             text=" Support📱 ",
+                             url="https://t.me/MinatoNamikazeSupport")
                      ],
                      [
                         InlineKeyboardButton(
