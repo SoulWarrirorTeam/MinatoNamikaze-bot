@@ -1,5 +1,5 @@
 {
-   "name": "Minato Namikaze",
+   "name": "Soul Warrior Team",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,8 +8,8 @@
          "manager",
          "Senku"
       ],   
-   "repository": "https://github.com/DarkGod14/MinatoNamikaze-bot",
-   "logo": "https://telegra.ph/file/7d7efc78076370c4eb11c.jpg",
+   "repository": "https://github.com/SoulWarrirorTeam/SoulWarriorTeam-bot",
+   "logo": "https://i.imgur.com/i1uWJnd.jpg",
    "addons": [
     {
          "options": {
