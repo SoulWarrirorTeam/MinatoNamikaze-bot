@@ -1,4 +1,4 @@
-__mod_name__ = "upload"
+__mod_name__ = "Upload"
 
 __help__ = """
 
